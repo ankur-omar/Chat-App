@@ -1,0 +1,110 @@
+.logo{
+    display:block;
+    margin:auto;
+    width:100px;
+    height:70px;
+    margin-bottom: 25px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+    
+
+}
+
+body{
+    height:100vh;
+     background-image: linear-gradient(rgb(152, 148, 187),rgb(35, 82, 158)); 
+}
+
+.container{
+    max-width:955px;
+    background-color:whitesmoke;
+    margin:auto;
+    height:60vh;
+    padding:3px;
+    overflow-y:auto;
+    margin-bottom:10px;
+    border:5px solid black;
+    border-radius: 20px;
+    margin-top:9px;
+    
+  
+
+}
+
+.message{
+    background-color: rgb(25, 160, 142);
+    width:24%;
+    padding:10px;
+    margin:17px 12px;
+    border:2px solid black;
+    border-radius: 10px;
+    font-weight:bold;
+
+}
+
+.left{
+    float:left;
+    clear:both;
+    color:black;
+
+}
+.right{
+    float:right;
+    clear:both;
+
+
+}
+
+
+#send-container{
+    display:block;
+    margin:auto;
+    text-align:center;
+    max-width:985px;
+    width:100%;
+
+
+}
+
+#messageImp{
+    width:70%;
+    border:2px solid black;
+    border-radius: 10px;
+    height:35px;
+}
+
+.btn{
+    border-radius: 10px;
+    cursor: pointer;
+    border:2px solid black;
+    background-color: black;
+    color:white;
+    width:10%;
+    height:20hv;
+
+    
+
+}
+
+.btn:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    border:2px solid black;
+    color:green;
+    
+}
+
+h1{
+    text-align:center;
+    /* font-family: 'Russo One', sans-serif; */
+    font-size:40px;
+    font-family: 'Lobster', cursive;
+    margin-top: 5px;
+}
+
+h1:hover{
+    color:white;
+}
