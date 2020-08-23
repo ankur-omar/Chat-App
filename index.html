@@ -6,16 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat App</title>
     <!-- connect clienT to the server -->
-    <script defer src="http://localhost:80/socket.io/socket.io.js"></script>
-    <script defer src="js/client.js"></script>
+        <!-- <script defer src="http://localhost:3000/socket.io/socket.io.js"></script> -->
+        <script src="/socket.io/socket.io.js"></script>
+    <!-- <script>
+      const socket = io();
+    </script> -->
+        <!-- <script defer src="http://localhost:3000/socket.io/socket.io.js"></script> -->
+    <!-- <script defer src="js/client.js"></script> -->
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 
+
 <body>
     <nav>
-        <img src="logo2.jpg" alt="index.html" class="logo">
+        <!-- <img src="logo2.jpg" alt="index.html" class="logo"> -->
+        <img src="logo2.jpg" class="logo">
         <h1>Welcome To Live Chat System</h1>
     </nav>
     <div class="container">
@@ -28,5 +35,6 @@
         </form>
     </div>
 </body>
+<script src="js/client.js"></script>
 
 </html>
